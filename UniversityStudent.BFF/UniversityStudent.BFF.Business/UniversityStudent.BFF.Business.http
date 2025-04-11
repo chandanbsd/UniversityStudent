@@ -1,0 +1,6 @@
+@UniversityStudent.BFF.Business_HostAddress = http://localhost:5231
+
+GET {{UniversityStudent.BFF.Business_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
