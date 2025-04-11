@@ -1,9 +1,23 @@
 .navbar {
-  background-color: #004f4f;
-  height: 50px;
+  background-color: #dbbc95;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar > div {
+  min-width: 25vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-action-btn {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .body {
-  background-color: #dbbc95;
+  background-color: #d7cbbe;
   min-height: 100vh;
 }
